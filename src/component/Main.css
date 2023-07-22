@@ -1,0 +1,120 @@
+body{
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Outfit';
+}
+
+p , a, span, small, strong {
+    font-family: 'Outfit';
+}
+
+.button{
+    background: transparent;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    width: 134px;
+    height: 55px;
+    position: absolute;
+    top: 80%;
+    right: 300px;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+.button2{
+    background: transparent;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    width: 134px;
+    height: 55px;
+    position: absolute;
+    top: 80%;
+    
+    color: #fff;
+    font-weight: 600;
+}
+
+.women{
+    position: absolute;
+    top: 70%;
+    left: 240px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 64px;
+    color: #fff;
+    line-height: 80px;
+    letter-spacing: 4px;
+}
+.women span{
+    color: #D7A116;
+}
+
+@media (max-width: 768px) {
+    .button{
+        left: 100px;
+    }
+
+    .button2{
+        top: 320px;
+    }
+}
+
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 900px) {
+    .display{
+        flex-direction: column;
+    }
+}
+
+
+.herobody{
+    margin-top: 60px;
+}
+.herobody h5{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #9D9D9D;
+}
+
+.herobody p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 50px;
+}
+
+.back h5{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 40px;
+    line-height: 50px;
+    position: relative;
+    bottom: 24%;
+    margin-left: 20px;
+}
+
+
+.heading h4{
+    letter-spacing: 20%;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.heading h3{
+    letter-spacing: 5%;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 80px;
+}

@@ -1,0 +1,110 @@
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Outfit';
+}
+
+p , a, span, small, strong {
+    font-family: 'Outfit';
+}
+.testing{
+    background-color: black;
+    color: white;
+}
+
+
+.help {
+    margin-top: 10px;
+    margin-right: 105px;
+}
+@media (max-width:900px) {
+    .help{
+        margin-right: 0;
+    }
+}
+
+.help a{
+    color: #fff;
+}
+
+.vector{
+    margin-right: 22px;
+}
+
+.background{
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+
+.myNav{
+    text-decoration: none ;
+    margin-left: 20px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer .link{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9D9D9D;
+    font-weight: 400;
+    letter-spacing: 5%;
+}
+
+.footer p {
+    font-size: 14px;
+    line-height: 17px;
+    color: #9D9D9D;
+    font-weight: 400;
+    letter-spacing: 5%;
+}
+
+.footer-para{
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+}
+
+
+.footer h5{
+   text-transform: uppercase;
+}
+
+input{
+    border: none;
+    outline: none;
+    margin-top: 10px;
+}
+
+input::placeholder{
+    color: #9D9D9D;
+    font-size: 14px;
+}
+
+.button1{
+    width: 240px;
+    height: 38px;
+    color: #fff;
+    background-color: #000;
+    border: 0;
+    font-size: 14px;
+}
+
+.display span{
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 18px;
+}
+
+.testing1 p{
+    color: #9D9D9D;
+    font-size: 14px;
+}
