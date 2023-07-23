@@ -118,3 +118,19 @@ p , a, span, small, strong {
     line-height: 25px;
     margin-bottom: 80px;
 }
+
+.men-trad{
+    margin-bottom: 81px;
+}
+
+
+.men-trad span{
+    color: #D7A116;
+}
+
+.men-trad h4{
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 52px;
+    letter-spacing: 5%;
+}

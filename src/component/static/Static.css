@@ -43,6 +43,22 @@ p , a, span, small, strong {
     font-weight: 500;
 }
 
+.myNav::after{
+    content: "";
+    display: block;
+    height: 4px;
+    width: 100%;
+    margin-left:5px;
+    background-color: #000;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.myNav:hover::after{
+    transform: scaleX(1);
+}
+
 .display{
     display: flex;
     justify-content: center;
