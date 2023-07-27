@@ -19,11 +19,11 @@ function Traditional() {
       <div className="container">
         <div className="row">
           <div className="col-md-4">
-              <img src={Trad1} alt="" className="img-fluid" />
+              <img src={Trad1} alt="" className="img-fluid mb-3" />
           </div>
 
           <div className="col-md-4">
-              <img src={Trad2} alt="" className="img-fluid" />
+              <img src={Trad2} alt="" className="img-fluid mb-3" />
           </div>
 
           <div className="col-md-4">
@@ -42,11 +42,11 @@ function Traditional() {
       <div className="container mb-5">
         <div className="row">
           <div className="col-md-4">
-              <img src={Trad4} alt="" className="img-fluid" />
+              <img src={Trad4} alt="" className="img-fluid mb-3" />
           </div>
 
           <div className="col-md-4">
-              <img src={Trad5} alt="" className="img-fluid" />
+              <img src={Trad5} alt="" className="img-fluid mb-3" />
           </div>
 
           <div className="col-md-4">

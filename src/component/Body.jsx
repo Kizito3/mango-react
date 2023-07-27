@@ -53,7 +53,7 @@ function Body() {
                     </div>
                     <div className="col-md-8">
                         <img src={Hero5} alt="" className='img-fluid img' />
-                        <h5>suit</h5>
+                        <h5>dinner</h5>
                     </div>
                 </div>
             </div>

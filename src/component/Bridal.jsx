@@ -12,6 +12,7 @@ import Bridal9 from '../../src/component/images/b9.png';
 function Bridal() {
   return (
     <div>
+
          <div className="container">
         <div className="row heading">
           <div className="col-md-12">

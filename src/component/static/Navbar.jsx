@@ -4,8 +4,17 @@ import Navbar from 'react-bootstrap/Navbar';
 import Logo from '../../component/images/logo.png';
 // import NavDropdown from 'react-bootstrap/NavDropdown';
 import '../../component/static/Static.css'
-import {Link} from 'react-router-dom'
+import {Link, useLocation} from 'react-router-dom'
+import ShowForm from './ShowForm';
+// import ShowForm from './ShowForm';
+
 function BasicExample() {
+
+  const location = useLocation();
+
+  const {pathname} = location;
+
+  const splitLocation = pathname.split('/');
   return (
     <Navbar expand="lg" className="background">
       <Container>
@@ -16,35 +25,33 @@ function BasicExample() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto myNav">
             <Nav.Link>
-                <Link to="/men" className='myNav'>Men</Link>
+                <Link className={splitLocation[1] === "men" ? "active-link myNav" : "myNav"} to="/men"
+                >Men</Link>
             </Nav.Link>
             <Nav.Link>
-                <Link to="/women" className='myNav'>Women</Link>
+            <Link className={splitLocation[1] === "women" ? "active-link myNav" : "myNav"} to="/women"
+                >women</Link>
             </Nav.Link>
             <Nav.Link>
-                <Link to="/bridal" className='myNav'>Bridal</Link>
+            <Link className={splitLocation[1] === "bridal" ? "active-link myNav" : "myNav"} to="/bridal"
+                >bridal</Link>
             </Nav.Link>
             <Nav.Link>
-                <Link to="/traditional" className='myNav'>Traditional</Link>
+            <Link className={splitLocation[1] === "traditional" ? "active-link myNav" : "myNav"} to="/traditional"
+                >traditional</Link>
             </Nav.Link>
             <Nav.Link>
-                <Link to="/about" className='myNav'>About</Link>
+            <Link className={splitLocation[1] === "about" ? "active-link myNav" : "myNav"} to="/about"
+                >about</Link>
             </Nav.Link>
             <Nav.Link>
-                <Link to="/contact" className='myNav'>Contact</Link>
+            <Link className={splitLocation[1] === "contact" ? "active-link myNav" : "myNav"} to="/contact"
+                >contact</Link>
             </Nav.Link>
-            {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown> */}
           </Nav>
+          {/* <ShowForm/> */}
+          
+          <ShowForm />
         </Navbar.Collapse>
       </Container>
     </Navbar>

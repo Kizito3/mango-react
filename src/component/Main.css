@@ -89,6 +89,7 @@ p , a, span, small, strong {
     font-size: 14px;
     line-height: 17px;
     margin-bottom: 50px;
+    color: #000;
 }
 
 .back h5{
@@ -133,4 +134,95 @@ p , a, span, small, strong {
     font-size: 42px;
     line-height: 52px;
     letter-spacing: 5%;
+}
+
+
+.about-hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("../component/images/about.png");
+    height: 100vh;
+}
+
+@media (max-width: 768px){
+    .about-hero{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+.about-hero h4, p{
+    color: #fff;
+}
+
+.hero-spacing{
+    margin-top: 200px;
+}
+
+.hero-spacing h4{
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.hero-spacing p{
+    margin-bottom: 70px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.abt-image{
+    margin-top: 50px;
+}
+
+@media (max-width: 1000px){
+    .abt-image{
+        display: none;
+    }
+}
+
+@media (max-width: 768px){
+    .hero-spacing{
+        margin-top: 100px;
+    }
+}
+
+.abt-btn{
+    border: none;
+    background-color: #D7A116;
+    width: 220px;
+    height:60px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+.sec-abt{
+    margin-top: 65px;
+}
+
+.sec-abt h4{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom:5px;
+}
+
+.sec-abt p{
+    color: #9D9D9D;
+    font-size: 14px;
+}
+
+.third-abt{
+    margin-bottom: 50px;
+}
+.third-abt h4{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom:5px;
+}
+
+.third-abt p{
+    color: #9D9D9D;
+    font-size: 14px;
 }
