@@ -8,6 +8,7 @@ import Bridal6 from '../../src/component/images/b6.png';
 import Bridal7 from '../../src/component/images/b7.png';
 import Bridal8 from '../../src/component/images/b8.png';
 import Bridal9 from '../../src/component/images/b9.png';
+import Next from './Next';
 
 function Bridal() {
   return (
@@ -68,6 +69,7 @@ function Bridal() {
           <div className="col-md-4">
             <img src={Bridal9} alt="" className='img-fluid mb-3' />
           </div>
+          <Next />
         </div>
       </div>
     </div>

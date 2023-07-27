@@ -137,6 +137,17 @@ p , a, span, small, strong {
 }
 
 
+.no1{
+    border: 1px solid #000;
+    width: 105px;
+    height: 44px;
+    padding: 7px 30px 14px 30px;
+}
+
+.icon-arrow{
+    margin-left: 15px;
+}
+
 .about-hero{
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("../component/images/about.png");
     height: 100vh;

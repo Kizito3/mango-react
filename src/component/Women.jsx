@@ -8,6 +8,7 @@ import Women6 from '../../src/component/images/w6.png';
 import Women7 from '../../src/component/images/w7.png';
 import Women8 from '../../src/component/images/w8.png';
 import Women9 from '../../src/component/images/w9.png';
+import Next from './Next';
 
 function Women() {
   return (
@@ -66,6 +67,8 @@ function Women() {
           <div className="col-md-4">
             <img src={Women9} alt="" className='img-fluid' />
           </div>
+
+          <Next />
         </div>
       </div>
     </div>
